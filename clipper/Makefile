@@ -70,7 +70,7 @@ $(PKG).${VER}-${REL}.tar.gz: $(PKG).tar.gz
 
 sparsehash: sparsehash-2.0.2
 	cd sparsehash-2.0.2; ./configure; make
-	mkdir sparsehash
+	mkdir -p sparsehash
 	cp -r sparsehash-2.0.2/src/sparsehash/* sparsehash/
 
 # why the libbam.a doesn't work?  not sure... *.o works
