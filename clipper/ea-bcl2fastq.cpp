@@ -47,7 +47,7 @@ using namespace std;            // bad practice
 #include "zlib.h"
 
 #define VERSION "1.01"
-#define SVNREV atoi(strchr("$LastChangedRevision: 705 $", ':')+1)
+#define SVNREV 1984
 #define warn(...) { fprintf(stderr, __VA_ARGS__); }
 #define die(...) { warn(__VA_ARGS__); exit(1); }
 

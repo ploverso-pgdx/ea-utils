@@ -39,7 +39,7 @@ use File::Basename qw(dirname);
 
 sub pretty_encode;
 
-our ($REVISION) = (q$LastChangedRevision$ =~ /(\d+)/);
+our ($REVISION) = 1984;
 
 our $VERSION = "0.9.$REVISION";				# 0.10 wil be feature lock, after sql impl.  0.9.X is zmq & json::xs
 

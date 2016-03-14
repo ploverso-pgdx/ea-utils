@@ -29,7 +29,7 @@ See "void usage" below for usage.
 */
 
 #define VERSION "1.01"
-#define SVNREV atoi(strchr("$LastChangedRevision$", ':')+1)
+#define SVNREV 1984
 
 void usage(FILE *f);
 int debug=0;

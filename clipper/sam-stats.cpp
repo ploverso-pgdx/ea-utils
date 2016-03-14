@@ -43,7 +43,7 @@
 
 const char * VERSION = "1.38";
 
-#define SVNREV atoi(strchr("$LastChangedRevision$", ':')+1)
+#define SVNREV 1984
 
 using namespace std;
 

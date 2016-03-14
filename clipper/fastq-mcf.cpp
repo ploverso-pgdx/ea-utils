@@ -32,7 +32,7 @@ See "void usage" below for usage.
 #include "fastq-lib.h"
 
 #define VERSION "1.04"
-#define SVNREV atoi(strchr("$LastChangedRevision$", ':')+1)
+#define SVNREV 1984
 
 #define MAX_ADAPTER_NUM 1000
 #define SCANLEN 15

@@ -35,7 +35,7 @@ See "void usage" below for usage.
 #define endstr(e) (e=='e'?"end":e=='b'?"start":"n/a")
 
 const char * VERSION = "1.02";
-#define SVNREV atoi(strchr("$LastChangedRevision$", ':')+1)
+#define SVNREV 1984
 
 // barcode
 struct bc {
